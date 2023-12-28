@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+
+
+body {
+
+    min-height: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("Sprites/backgroundMenu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+h1{
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+footer, header {
+
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+#menu {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+
+
+.button{
+    
+    width: 40%;
+    height: 50px;
+    margin: 50px;
+    transition-duration: 0.4s;
+    border: solid blue;
+    padding: 0;
+    border-radius: 5px ;
+    box-sizing: border-box;
+
+}
+
+.smallButton{
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    transition-duration: 0.4s;
+    border: solid blue;
+    padding: 0;
+    border-radius: 5px ;
+    box-sizing: border-box;
+
+}
+
+.smallButton:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+.button:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+
+.ligne {
+
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+
+}
+
+.V {
+
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+.P {
+    background-image: url("Sprites/personnage.png");
+    width: 30px;
+    height: 30px;
+}
+
+.R {
+
+    background-image: url("Sprites/rocher.png");
+    width: 30px;
+    height: 30px;
+}
+
+.T {
+    background-image: url("Sprites/herbe.png");
+    width: 30px;
+    height: 30px;
+}
+
+.D{
+    background-image: url("Sprites/pokeball.png");
+    width: 30px;
+    height: 30px;
+
+}
+
+.M{
+
+    background-image: url("Sprites/eau.png");
+    width: 30px;
+    height: 30px;
+
+}
+
+/*Classe pour l'effet d'explosion avec des débris*/
+.Q{
+    background-color: blueviolet;
+    width: 30px;
+    height: 30px;
+}
+
+label{
+    color:white;
+    margin: 30px;
+    font-size: 30px;
+
+}
+
+#score{
+    height: 30px;
+    width: 960px;
+    background-color: black;
+    color: white;
+}
+
+
+
